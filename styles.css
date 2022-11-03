@@ -1,0 +1,79 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 10%;
+  }
+  
+  .container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  .font-name {
+    font-size: larger;
+    text-decoration: underline;
+  }
+
+  .roboto-font {
+    font-family: 'Roboto Slab', serif;
+  }
+
+  .merriweather-font {
+      font-family: 'Merriweather', serif;
+  }
+
+  .playfair-font {
+      font-family: 'Playfair Display', serif;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  .font-container {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .font-panel {
+      margin: 10px;
+  }
+
+  h2 {
+      text-align: center;
+  }
+
+  .color-container {
+      display: flex;
+      justify-content: center;
+  }
+
+  .color-panel {
+      margin: 10px;
+      padding: 20px;
+      border: 1px solid;
+  }
+
+  .blue {
+      background-color: #51e2f5;
+  }
+
+  .green {
+      background-color: #9df9ef;
+  }
+
+  .white {
+      background-color: #edf756;
+  }
+
+  .pink {
+      background-color: #ffa8B6;
+  }
+  
+  .dark {
+      background-color: #a28089;
+  }
