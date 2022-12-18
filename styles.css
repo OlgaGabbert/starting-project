@@ -14,19 +14,24 @@ body {
       right: 0px;
       text-align: center;
       overflow: hidden;
-      margin-bottom: 10px;
-      background: pink;
+      background: #ffa8B6;
   }
 
   .container {
     border: 2px solid #a2a2a6;
     padding: 10px;
-    margin-top: 10px auto;
+    margin: 10px;
   }
 
   .font-name {
     font-size: larger;
     text-decoration: underline;
+  }
+
+  .text-style-name {
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 24px;
   }
 
   .roboto-font {
@@ -54,12 +59,18 @@ body {
       flex-direction: row;
   }
 
-  .font-panel {
+  .text-style-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .font-panel, .text-style-panel {
       margin: 10px;
   }
 
   h2 {
       text-align: center;
+      font-size: 30px;
   }
 
   .color-container {
@@ -92,3 +103,8 @@ body {
   .dark {
       background-color: #a28089;
   }
+
+  .h1 {
+      font-size: 40px;
+  }
+  
